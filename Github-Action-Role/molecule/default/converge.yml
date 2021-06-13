@@ -1,0 +1,10 @@
+---
+- name: Converge
+  hosts: all
+  #vars:
+    #ansible_python_interpreter: /usr/libexec/platform-python
+    #ansible_ssh_pipelining: no
+  tasks:
+    - name: "Include Github-Action-Role"
+      include_role:
+        name: "Github-Action-Role"

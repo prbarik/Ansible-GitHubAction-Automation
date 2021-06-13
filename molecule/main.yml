@@ -30,8 +30,8 @@
       copy:
         content: |
           <html>
-          <head><title>Hello world!</title></head>
-          <body>Hello world!</body>
+          <head><title>Hello molecule!</title></head>
+          <body>Hello molecule!</body>
           </html>
         dest: "/var/www/html/index.html"
         mode: 0664
